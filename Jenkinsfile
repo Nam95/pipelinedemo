@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('first stage') {
             steps {
+                git 'https://github.com/jenkinsdemorepo/mavenproject'
                 sh 'echo "I am the first stage"'
             }
         }
