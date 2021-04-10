@@ -17,6 +17,11 @@ pipeline {
                 sh 'echo "I am the third stage"'
             }
         }
+        stage('100th stage') {
+            steps {
+                sh 'echo "I am the third stage"'
+            }
+        }
         
     }
 }
